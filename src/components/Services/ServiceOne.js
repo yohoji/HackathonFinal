@@ -8,7 +8,7 @@ class ServiceOne extends Component {
         var ServiceData = this.props.ServiceData;
 
         return (
-            <section className="services-wrap section-padding pt-0" id="service">
+            <section className="services-wrap section-padding" id="service">
                 <div className="container">
                     
                 <SectionTitle Title="The Latest Hosting Server Technology"  Titlep="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since" />  

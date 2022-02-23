@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import SearchBar from '../SearchBar';
 
 
 
 class HeroOne extends Component {
     render() {
-        var {BigTitle, SubTitle} = this.props;
 
         return (
         <section className="hero-wrapper">
@@ -35,17 +33,25 @@ class HeroOne extends Component {
                         <path fill="url(#PSgrad_0)" d="M-0.000,0.001 L1920.000,-0.000 L1920.000,680.000 C1920.000,680.000 1439.999,830.000 959.998,830.000 C479.998,830.000 -0.000,680.000 -0.000,680.000 L-0.000,0.001 Z" />
                     </svg>
                 </div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-12 text-center">
-                            <div className="hero-content">
-                                <h1 className="fs-lg mb-20">{BigTitle}</h1>
-                                <p>{SubTitle}</p>
-                                <SearchBar/>
+                <div className="single-slide">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-xl-6 col-lg-6 col-md-10 col-12 pr-0">
+                                    <div className="single-slide-content slide2 text-white">
+                                        <p>Votre vision. Nos solutions.</p>
+                                        <h1>Bienvenue chez IDEAL CONNECT.</h1>
+                                        <p>Une solution qui comblera tous vos besoins technologiques.</p>
+                                        <a href=".#" className="theme-btn">Start for Now</a>
+                                    </div>
+                                </div>
+                                <div className="col-xl-6 col-lg-6 d-none d-lg-block col-12">
+                                    <div className="single-slide-img">
+                                    <img src={require ('../../assets/img/slider2.png')} alt="" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </section>
         )

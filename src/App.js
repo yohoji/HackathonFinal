@@ -29,7 +29,7 @@ function App() {
             <Route path='/HomeThree' component={HomeThree} />
             
             <Client/>
-            <Cta CtaTitle="Start building your website today!" CtaDec="We make register, hosting and managing domain for yourself or others easy and affordable, because the internet needs people" CtaBtnText="Get Started" ctaLink=".#" />
+            {/* <Cta CtaTitle="Start building your website today!" CtaDec="We make register, hosting and managing domain for yourself or others easy and affordable, because the internet needs people" CtaBtnText="Get Started" ctaLink=".#" /> */}
             <Footer FooterData={FooterData}/>
         </Router>
     </div>

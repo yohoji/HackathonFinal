@@ -20,15 +20,15 @@ class HomeOne extends Component {
     render() {
         return (
             <React.Fragment>
-                <HeroOne BigTitle="Find your best domain name and create a Site" SubTitle="Up to 50% Off Domain and Hosting, Starting from $ 2.50/Month." />
-                <DomainBox DomainData={DomainData} />
+                <HeroOne />
+                {/* <DomainBox DomainData={DomainData} /> */}
                 <ServiceOne ServiceData={ServiceData} />
-                <PriceOne/>
-                <Map/>
+                {/* <PriceOne/> */}
+                {/* <Map/> */}
                 <ContentBlock/>
                 <Testimonial TestimonialData={TestimonialData} />
                 <FaqOne FaqData={FaqData} />
-                <Team TeamData={TeamData} />
+                {/* <Team TeamData={TeamData} /> */}
                 <ContactOne/>
             </React.Fragment>
 
