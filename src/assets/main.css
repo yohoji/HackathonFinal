@@ -1025,7 +1025,10 @@ section {
 
 .navbar-brand {
   padding: 0;
-  margin-right: 0; }
+  margin-right: 0; 
+  height: 4.5rem;
+  width: 4.5rem;
+}
 
 #scrollUp {
   width: 40px;
@@ -1680,6 +1683,9 @@ header .main-menu .menu-1 ul li a {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out; }
+  .main-menu .row {
+    align-items: center;
+  }
   header .main-menu .menu-1 ul li a:hover {
     color: #f93748; }
   @media (max-width: 1199px) {
@@ -3843,7 +3849,7 @@ form .f3 {
 footer {
   color: #FFF;
   padding: 100px 0px;
-  background: #2f1976; }
+  background: #000b7f; }
   @media (max-width: 991px) {
     footer {
       padding: 80px 0px; }

@@ -9,7 +9,7 @@ class FaqOne extends Component {
             <section className="faq-wrap section-padding" id="faq">
                 <div className="container">
 
-                    <SectionTitle Title="Frequently asked questions"  Titlep="WHO? HOW? WHY? To get answers for more questions, visit our documentation or contact us page" />
+                    <SectionTitle Title="Questions fréquemment posées"  Titlep="QUI? COMMENT? POURQUOI?" />
 
                     <div className="row pt-10">
 

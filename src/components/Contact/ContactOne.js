@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import SectionTitle from '../SectionTitle'
+import { Gmap } from '../Gmap';
 
 
 class ContactOne extends Component {
@@ -25,44 +26,64 @@ class ContactOne extends Component {
                     <img src={require ("../../assets/img/shape/8.png") } className="shape shape16"  alt="" />
                 </div>
                 <div className="container">
-                    
-                    <SectionTitle Title="Drop us as a message"  Titlep="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
-                    
-                    <div className="form-wrap">
-                        <form action="mail.php" className="row" id="contact-form" method="POST">
-                            <div className="col-lg-6 col-md-6 col-12">
-                                <div className="single-input">
-                                    <label htmlFor="fname">First name (required)</label>
-                                    <input type="text" id="fname" name="fname" placeholder="first name" />
+                <SectionTitle Title="Nous contacter"  Titlep="Nous contacter Vous souhaitez collaborer avec IDEAL CONNECT ? Contactez-nous dès aujourd'hui pour découvrir nos solutions informatiques sur-mesure." />  
+
+                <div className="row" id="contact">
+                    <div className="col-md-12 col-lg-6 col-12">
+                        <div className="form-wrap">
+                            <form action=".#" className="row" id="contact-form" method="POST">
+                                <div className="col-12">
+                                    <div className="single-input">
+                                        <input type="text" id="fname" name="fullname" placeholder="Full name" />
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-lg-6 col-md-6 col-12">
-                                <div className="single-input">
-                                    <label htmlFor="lname">Last name (required)</label>
-                                    <input type="text" id="lname" name="lname" placeholder="Last name" />
+                                <div className="col-12">
+                                    <div className="single-input">
+                                        <input type="text" id="email" name="email" placeholder="Your mail" />
+                                    </div>
+                                    <div className="single-input">
+                                        <input type="text" id="subject" name="subject" placeholder="Subject" />
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-lg-6 col-md-6 col-12">
-                                <div className="single-input">
-                                    <label htmlFor="email">Your email (required)</label>
-                                    <input type="text" id="email" name="email" placeholder="Your mail" />
+                                <div className="col-12">
+                                    <div className="single-input">
+                                        <textarea name="message" id="message" placeholder="message" defaultValue={ ""} />
+                                    </div>
                                 </div>
-                                <div className="single-input">
-                                    <label htmlFor="subject">Subject</label>
-                                    <input type="text" id="subject" name="subject" placeholder="Subject" />
+                                <div className="col-12 col-lg-12 mt-40">
+                                    <button type="submit" className="theme-btn f3">Submit</button>
                                 </div>
-                            </div>
-                            <div className="col-lg-6 col-md-6 col-12">
-                                <div className="single-input">
-                                    <label htmlFor="message">Message</label>
-                                    <textarea name="message" id="message" placeholder="message" defaultValue={ ""} />
-                                </div>
-                            </div>
-                            <div className="col-12 col-lg-12 text-center mt-40">
-                                <button type="submit" className="theme-btn">Submit</button>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
+                    <div className="col-md-12 col-lg-5 offset-lg-1 col-12 get-contact text-white">
+                        <h4>Get Instand Reply</h4>
+                        <div className="row">
+                            <div className="single-contact-info col-sm-6 col-12">
+                                <div className="contact-icon">
+                                    <i className="far fa-envelope-open-text" />
+                                </div>
+                                <div className="contact-info">
+                                    <p>commercial@ideal-connect.tn</p>
+                                </div>
+                            </div> {/* /.single-contact-info */}
+                            <div className="single-contact-info col-sm-6 col-12">
+                                <div className="contact-icon">
+                                    <i class='fal fa-phone'></i>
+                                </div>
+                                <div className="contact-info">
+                                    <p>(216) 22 741 725</p>
+                                    <p>(216) 55 313 784</p>
+                                </div>
+                            </div> {/* /.single-contact-info */}
+                        </div>
+                        <div className="google-map mt-20">
+                            <div id="map">
+                                <Gmap/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </section>
         )

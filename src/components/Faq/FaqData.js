@@ -2,8 +2,8 @@ const FaqData = {
     faqItems: [
         {
             id:1,
-            title:"What is Klaud hosting?",
-            ans:"Klaud hosting is a hosting service for WordPress sites, which comes with an easy 1-click installation of Demo.",
+            title:"Qu'est-ce que IDEAL CONNECT?",
+            ans:"IDEAL CONNECT fournit de nombreuses solutions informatiques complètes et innovantes.",
             iconUrl:"ssd.png"
         },
         {

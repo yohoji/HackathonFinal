@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link as PageLink } from 'react-router-dom';
 import { Link } from "react-scroll";
 import $ from 'jquery';
+import logo from "../assets/img/logo2.svg"
 
 export class Navbar extends Component {
 
@@ -33,7 +34,7 @@ export class Navbar extends Component {
                     <div className="row">
                         <div className="col-md-3 col-lg-2 d-flex col-6 col-sm-4">
                             <PageLink className="navbar-brand logo" to="/">
-                                <img src={require( "../assets/img/logo.png")} alt="Klaud" />
+                                <img src={logo} alt="Klaud" />
                             </PageLink>
                         </div>
                         <div className="col-xl-7 col-lg-7 offset-xl-1 col-md-7 col-7 pr-0 d-none d-lg-block text-lg-right">

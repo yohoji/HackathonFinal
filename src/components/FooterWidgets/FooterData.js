@@ -2,8 +2,8 @@ const FooterData = {
     siteInfo: [
         {
             id: 1,
-            aboutText: "We make registering, hosting, and managing domains for yourself or others easy and affordable, because the internet needs people.",
-            image: 'logo.png'
+            aboutText: "IDEAL CONNECT fournit de nombreuses solutions informatiques complètes et innovantes.",
+            image: 'logo.svg'
         }
     ],
 
