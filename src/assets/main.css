@@ -2068,7 +2068,8 @@ header {
     .hero-wrapper .single-slide .single-slide-content h1 {
       font-size: 48px;
       line-height: 60px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+    }
       @media (max-width: 1199px) {
         .hero-wrapper .single-slide .single-slide-content h1 {
           font-size: 42px;

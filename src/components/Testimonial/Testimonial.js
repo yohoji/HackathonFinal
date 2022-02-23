@@ -51,7 +51,7 @@ class Testimonial extends Component {
                 </div>
                 <div className="container">
 
-                <SectionTitle Title="Happy testimonials"  Titlep="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since" />
+                <SectionTitle Title="Témoignages heureux"  Titlep="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since" />
 
                     <div className="row">
                         <div className="col-lg-12 col-12">

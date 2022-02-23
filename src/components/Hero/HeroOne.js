@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-scroll";
 
 
 
@@ -39,9 +40,9 @@ class HeroOne extends Component {
                                 <div className="col-xl-6 col-lg-6 col-md-10 col-12 pr-0">
                                     <div className="single-slide-content slide2 text-white">
                                         <p>Votre vision. Nos solutions.</p>
-                                        <h1>Bienvenue chez IDEAL CONNECT.</h1>
+                                        <h1 className='slide-Heading'>Bienvenue chez <br /> IDEAL CONNECT.</h1>
                                         <p>Une solution qui comblera tous vos besoins technologiques.</p>
-                                        <a href=".#" className="theme-btn">Start for Now</a>
+                                        <Link className="theme-btn" to="services" spy={true} smooth={true} offset={-70} duration={ 500}>En Savoir Plus</Link>
                                     </div>
                                 </div>
                                 <div className="col-xl-6 col-lg-6 d-none d-lg-block col-12">

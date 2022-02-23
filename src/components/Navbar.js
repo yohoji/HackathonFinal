@@ -7,7 +7,7 @@ export class Navbar extends Component {
 
     componentDidMount() {
 
-        $(window).on("scroll", function(){
+        $(window).on("scroll",function(){
         var Width = $(document).width();
 
             if($("body").scrollTop() > 100 || $("html").scrollTop() > 100 ) {
@@ -40,26 +40,7 @@ export class Navbar extends Component {
                             <nav className="menu-1">
                                 <ul className="menu-items">
                                     <li>
-                                        <PageLink to="/">home</PageLink>
-                                        <ul className="submenu">
-                                            <li>
-                                                <PageLink to="/">Home 1</PageLink>
-                                            </li>
-                                            <li>
-                                                <PageLink to="/HomeTwo">Home 2</PageLink>
-                                            </li>
-                                            <li>
-                                                <PageLink to="/HomeThree">Home 3</PageLink>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <Link activeClass="active" to="feature" spy={true} smooth={true} offset={-70} duration={ 500}> Features
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link activeClass="active" to="price" spy={true} smooth={true} offset={-70} duration={ 500}> Pricing
-                                        </Link>
+                                        <PageLink to="/">Acceuil</PageLink>
                                     </li>
                                     <li>
                                         <Link activeClass="active" to="service" spy={true} smooth={true} offset={-70} duration={ 500}>Services</Link>
@@ -69,7 +50,7 @@ export class Navbar extends Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link activeClass="active" to="testimonial" spy={true} smooth={true} offset={-70} duration={ 500}> Testimonial
+                                        <Link activeClass="active" to="testimonial" spy={true} smooth={true} offset={-70} duration={ 500}> Témoignage
                                         </Link>
                                     </li>
                                     <li>
@@ -81,7 +62,7 @@ export class Navbar extends Component {
                         </div>
                         <div className="col-xl-2 col-lg-3 col-4 col-md-4 d-none d-sm-block text-right">
                             <div className="account">
-                                <Link to=".#" className="theme-btn sign">Sing up <img src={require(`../assets/img/sign.png`)} alt="" /></Link>
+                                <Link to="contact" className="theme-btn sign">Contact <img src={require(`../assets/img/sign.png`)} alt="" /></Link>
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4 col-6 d-block d-lg-none">

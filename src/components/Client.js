@@ -7,7 +7,7 @@ class Client extends Component {
             <section className="brand-logo-wrap section-padding">
                 <div className="container">
 
-                <SectionTitle Title="Trusted by 125 000+ customers worldwide"  />
+                <SectionTitle Title="Maîtrise des moyens techniques" Titlep="Agréés par les plus grands constructeurs réseaux et éditeurs de logiciels, nous garantissons la mise en œuvre des solutions que nous préconisons pour votre entreprise."  />
 
                     <div className="row">
                         <div className="col-12 text-center">
