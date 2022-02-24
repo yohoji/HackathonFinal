@@ -3,34 +3,26 @@ const TestimonialData = {
         {
             id:1,
             imgUrl:"1",
-            cName:"Mary W. Pollack",
+            cName:"KAMEL HTIRA",
             cPosition:"CEO ",
-            companyName:"Envato",
-            reviewText:"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia"
+            companyName:"Kamel",
+            reviewText:"Une équipe jeune et dynamique avec une forte culture d entreprise. Des managers bienveillants et très professionnels."
         },
         {
             id:2,
             imgUrl:"2",
-            cName:"Azizul Haque",
+            cName:"MOHAMED SADEK SAADI",
             cPosition:"CEO",
-            companyName:"KeenDevs",
-            reviewText:"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia"
+            companyName:"Yohoji",
+            reviewText:"Remarquable, à l'écoute et fait son possible pour apporter une réponse...  La politesse et la non agressivité appellent en retour la positivité."
         },
         {
             id:3,
             imgUrl:"3",
-            cName:"Saddam H.",
+            cName:"EYA OUALHI",
             cPosition:"UI Designer",
-            companyName:"WPPool",
-            reviewText:"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia"
-        },
-        {
-            id:4,
-            imgUrl:"4",
-            cName:"Salman Ahmed",
-            cPosition:"Developer",
-            companyName:"WPPool",
-            reviewText:"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia"
+            companyName:"eya",
+            reviewText:"Excellent service, du savoir faire et du savoir vivre !"
         }
     ],
 
