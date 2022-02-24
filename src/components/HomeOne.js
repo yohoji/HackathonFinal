@@ -21,7 +21,7 @@ const HomeOne = () => {
         <Testimonial TestimonialData={TestimonialData} />
         <FaqOne FaqData={FaqData} />
         <ContactOne/>
-        <MessengerCustomerChat pageId="226740791102691" appId="292970279610107" />
+        <MessengerCustomerChat pageId="102717955693408" appId="292970279610107" />
     </React.Fragment>
      );
 }
