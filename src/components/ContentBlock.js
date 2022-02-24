@@ -25,7 +25,7 @@ class ContentBlock extends Component {
                         </div>
                         <div className="col-xl-6 col-lg-6 offset-xl-1 col-sm-12 col-12">
                             <div className="content-featured-img" data-aos="fade-left" data-aos-duration={1200}>
-                                <img src={require ("../assets/img/featured-img1.jpg") } alt="klaud" />
+                                <img src={require ("../assets/img/featured-img1.jpg") } alt="" />
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ class ContentBlock extends Component {
                         </div>
                         <div className="col-xl-6 col-lg-6 col-sm-12 col-12">
                             <div className="content-featured-img pt-60" data-aos="fade-right" data-aos-duration={1200}>
-                                <img src={require ("../assets/img/featured-img2.jpg") } alt="klaud" />
+                                <img src={require ("../assets/img/featured-img2.jpg") } alt="" />
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ class ContentBlock extends Component {
                         </div>
                         <div className="col-lg-6 col-xl-6  offset-xl-1 col-sm-12 col-12">
                             <div className="content-featured-img pt-60" data-aos="fade-up" data-aos-duration={1200}>
-                                <img src={require ("../assets/img/featured-img3.jpg") } alt="klaud" />
+                                <img src={require ("../assets/img/featured-img3.jpg") } alt="" />
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ class ContentBlock extends Component {
                         </div>
                         <div className="col-xl-6 col-lg-6 col-sm-12 col-12">
                             <div className="content-featured-img pt-60" data-aos="fade-right" data-aos-duration={1200}>
-                                <img src={require ("../assets/img/featured-img4.jpg") } alt="klaud" />
+                                <img src={require ("../assets/img/featured-img4.jpg") } alt="" />
                             </div>
                         </div>
                     </div>

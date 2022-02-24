@@ -34,15 +34,15 @@ class ContactOne extends Component {
                             <form action=".#" className="row" id="contact-form" method="POST">
                                 <div className="col-12">
                                     <div className="single-input">
-                                        <input type="text" id="fname" name="fullname" placeholder="Full name" />
+                                        <input type="text" id="fname" name="fullname" placeholder="Nom et prénom" />
                                     </div>
                                 </div>
                                 <div className="col-12">
                                     <div className="single-input">
-                                        <input type="text" id="email" name="email" placeholder="Your mail" />
+                                        <input type="text" id="email" name="email" placeholder="email" />
                                     </div>
                                     <div className="single-input">
-                                        <input type="text" id="subject" name="subject" placeholder="Subject" />
+                                        <input type="text" id="subject" name="subject" placeholder="Sujet" />
                                     </div>
                                 </div>
                                 <div className="col-12">
@@ -51,13 +51,13 @@ class ContactOne extends Component {
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-12 mt-40">
-                                    <button type="submit" className="theme-btn f3">Submit</button>
+                                    <button type="submit" className="theme-btn f3">soumettre</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                     <div className="col-md-12 col-lg-5 offset-lg-1 col-12 get-contact text-white">
-                        <h4>Get Instand Reply</h4>
+                        <h4>Obtenez une réponse instantanée</h4>
                         <div className="row">
                             <div className="single-contact-info col-sm-6 col-12">
                                 <div className="contact-icon">
@@ -69,7 +69,7 @@ class ContactOne extends Component {
                             </div> {/* /.single-contact-info */}
                             <div className="single-contact-info col-sm-6 col-12">
                                 <div className="contact-icon">
-                                    <i class='fal fa-phone'></i>
+                                    <i className='fal fa-phone'></i>
                                 </div>
                                 <div className="contact-info">
                                     <p>(216) 22 741 725</p>

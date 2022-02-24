@@ -21,7 +21,7 @@ class ServiceOne extends Component {
                             <div className="col-xl-3 col-lg-4 col-sm-6 col-12" key={item.id} >
                                 <div className="single-service-box" data-aos="fade-up" data-aos-duration={800}>
                                     <div className="service-icon">
-                                        <img src={require (`../../assets/img/services/${item.imgUrl}`)} alt="klaud" />
+                                        <img src={require (`../../assets/img/services/${item.imgUrl}`)} alt="" />
                                     </div>
                                     <h4>{item.title}</h4>
                                     <p>{item.text}</p>

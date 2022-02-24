@@ -16,7 +16,7 @@ class Footer extends Component {
                                         FooterData.siteInfo.map(site=> {
                                             return(
                                             <div className="footer-logo" key={site.id}>
-                                                <Link to="/"><img src={require ("../assets/img/"+site.image) } alt="klaud" /></Link>
+                                                <Link to="/"><img src={require ("../assets/img/"+site.image) } alt="" /></Link>
                                                 <p>{site.aboutText}</p>
                                             </div> 
                                             )

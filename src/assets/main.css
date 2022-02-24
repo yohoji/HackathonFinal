@@ -1,34 +1,3 @@
-/*
-Template: Klaud - Web Domain & Hosting React Template
-Author: Keendevs
-Author URI: https://keendevs.com/
-Description: Web Domain & Hosting React Template.
-Version: 1.0
-*/
-/*
-=================================
-|***    Table of contents:   ***|
-=================================
-
-1. General styles
-2. Typography
-3. Helpers
-4. Preloader
-5. Go up button
-6. Header and navigation
-7. Hero Section / Hero Slider
-8. About us / Features
-9. Service
-10. Price
-11. Testimonial
-12. Map
-13. Content Block
-14. Faq Ask
-15. Contact Us
-16. Footer
-17. Responsive
-
-*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,900|Ubuntu:400,400i,500,500i,700,700i&display=swap");
 * {
   -webkit-box-sizing: border-box;
@@ -171,10 +140,10 @@ button:focus {
     Template All Variables Defined - Value Change with Your's Need
  -------------------------------------------------------------------- */
 .gradient, .theme-btn, .pre-loader, .cta-wrap {
-  background: #fb0053; }
+  background: #2596be; }
 
 .gradientHover, .theme-btn:hover, .domain-search-box .search-box-inner form button:hover {
-  background: #f85a29; }
+  background: #31b5e6; }
 
 .section-padding {
   padding: 150px 0px; }
@@ -1024,6 +993,8 @@ section {
       display: none; } }
 
 .navbar-brand {
+  display: flex;
+  align-items: center;
   padding: 0;
   margin-right: 0; 
   height: 4.5rem;
@@ -1050,7 +1021,7 @@ section {
   -webkit-box-shadow: 0px 5px 15px 0px rgba(1, 29, 80, 0.1);
   box-shadow: 0px 5px 15px 0px rgba(1, 29, 80, 0.1); }
   #scrollUp:hover {
-    background-color: #29156b; }
+    background-color: #31b5e6; }
 
 @media only screen and (max-width: 991px) {
   #scrollUp {
@@ -1207,7 +1178,7 @@ section {
 
 .select .select-options li:hover {
   color: #FFF;
-  background: #29156b; }
+  background: #31b5e6; }
 
 .select .select-options li[rel="hide"] {
   display: none; }
@@ -1574,7 +1545,7 @@ section {
   padding: 15px 30px;
   border-radius: 35px;
   line-height: 1; 
-  background: #fb0053;
+  background: #2596be;
 }
   .theme-btn:hover {
     color: #FFF; }
@@ -1687,7 +1658,7 @@ header .main-menu .menu-1 ul li a {
     align-items: center;
   }
   header .main-menu .menu-1 ul li a:hover {
-    color: #f93748; }
+    color: #31b5e6; }
   @media (max-width: 1199px) {
     header .main-menu .menu-1 ul li a {
       margin-left: 16px;
@@ -1719,10 +1690,10 @@ header .main-menu .menu-1 ul li .submenu {
       display: block;
       text-align: left;
       padding: 8px 0px;
-      color: #f93748; }
+      color: #31b5e6; }
 
 header .main-menu .menu-1 ul li:hover a {
-  color: #f93748; }
+  color: #31b5e6; }
 
 header .main-menu .menu-1 ul li:hover .submenu {
   opacity: 1;
@@ -1756,7 +1727,7 @@ header {
       color: #FFF;
       padding: 15px 0px; }
     header.sticky.bg-menu .main-menu .menu-1 > ul ul li a {
-      color: #f93748; }
+      color: #31b5e6; }
     header.sticky .container {
       background-color: transparent; }
     header.sticky .mean-container .mean-bar {
@@ -1916,7 +1887,7 @@ header {
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    background: #fb0053;
+    background: #31b5e6;
   }
     .domain-search-box .search-box-inner form button:hover {
       color: #FFF; }
@@ -2070,7 +2041,7 @@ header {
       display: inline-block;
       background-color: #4b4787; }
       .hero-wrapper .single-slide .single-slide-content span:hover {
-        background-color: #f93748; }
+        background-color: #31b5e6; }
     .hero-wrapper .single-slide .single-slide-content h1 {
       font-size: 48px;
       line-height: 60px;
@@ -2155,10 +2126,6 @@ header {
       background: #8c65af;
       border-radius: 30px;
       display: inline-block; }
-    .hero-slider-wrap .slick-dots li.slick-active button {
-      background-image: -moz-linear-gradient(-45deg, #fb0053 0%, #f85a29 100%);
-      background-image: -webkit-linear-gradient(-45deg, #fb0053 0%, #f85a29 100%);
-      background-image: linear-gradient(-45deg, #fb0053 0%, #f85a29 100%); }
     .hero-slider-wrap .slick-dots li button::before {
       display: none; }
 
@@ -2561,9 +2528,9 @@ header {
       border-radius: 30px;
       -webkit-box-shadow: 0px 0px 25px 0px rgba(45, 21, 183, 0.1);
       box-shadow: 0px 0px 25px 0px rgba(45, 21, 183, 0.1);
-      background-image: -moz-linear-gradient(-45deg, #fb0053 0%, #f85a29 100%);
-      background-image: -webkit-linear-gradient(-45deg, #fb0053 0%, #f85a29 100%);
-      background-image: linear-gradient(-45deg, #fb0053 0%, #f85a29 100%); }
+      background-image: -moz-linear-gradient(-45deg, #063970 0%, #2596be 100%);
+      background-image: -webkit-linear-gradient(-45deg, #063970 0%, #2596be 100%);
+      background-image: linear-gradient(-45deg, #063970 0%, #2596be 100%); }
     .package-control ul li a {
       height: 48px;
       line-height: 48px;
@@ -3321,9 +3288,9 @@ header {
       transition: all 0.4s ease-in-out; }
   .single-faq-box::before {
     border-radius: 5px;
-    background-image: -moz-linear-gradient(-45deg, #fb0053 0%, #f85a29 100%);
-    background-image: -webkit-linear-gradient(-45deg, #fb0053 0%, #f85a29 100%);
-    background-image: linear-gradient(-45deg, #fb0053 0%, #f85a29 100%);
+    background-image: -moz-linear-gradient(-45deg, #063970 0%, #2596be 100%);
+    background-image: -webkit-linear-gradient(-45deg, #063970 0%, #2596be 100%);
+    background-image: linear-gradient(-45deg, #063970 0%, #2596be 100%);
     position: absolute;
     width: 100%;
     height: 0%;
@@ -3367,9 +3334,9 @@ header {
     color: #FFF;
     -webkit-box-shadow: 0px 0px 25px 0px rgba(45, 21, 183, 0.1);
     box-shadow: 0px 0px 25px 0px rgba(45, 21, 183, 0.1);
-    background-image: -moz-linear-gradient(-45deg, #fb0053 0%, #f85a29 100%);
-    background-image: -webkit-linear-gradient(-45deg, #fb0053 0%, #f85a29 100%);
-    background-image: linear-gradient(-45deg, #fb0053 0%, #f85a29 100%); }
+    background-image: -moz-linear-gradient(-45deg, #063970 0%, #2596be 100%);
+    background-image: -webkit-linear-gradient(-45deg, #063970 0%, #2596be 100%);
+    background-image: linear-gradient(-45deg, #063970 0%, #2596be 100%); }
     .accordion-wrap .card.cbg .card-header h2 button {
       color: #FFF; }
     .accordion-wrap .card.cbg::before {
@@ -3589,9 +3556,9 @@ header {
     -webkit-box-shadow: 0px 0px 25px 0px rgba(20, 27, 201, 0.1);
     box-shadow: 0px 0px 25px 0px rgba(20, 27, 201, 0.1); }
     .out-tem-wrap .single-team-member.active, .out-tem-wrap .single-team-member:hover {
-      background-image: -moz-linear-gradient(-45deg, #fb0053 0%, #f85a29 100%);
-      background-image: -webkit-linear-gradient(-45deg, #fb0053 0%, #f85a29 100%);
-      background-image: linear-gradient(-45deg, #fb0053 0%, #f85a29 100%);
+      background-image: -moz-linear-gradient(-45deg, #063970 0%, #2596be 100%);
+      background-image: -webkit-linear-gradient(-45deg, #063970 0%, #2596be 100%);
+      background-image: linear-gradient(-45deg, #063970 0%, #2596be 100%);
       -webkit-box-shadow: 0px 0px 25px 0px rgba(45, 21, 183, 0.1);
       box-shadow: 0px 0px 25px 0px rgba(45, 21, 183, 0.1); }
       .out-tem-wrap .single-team-member.active .member-info h4, .out-tem-wrap .single-team-member.active .member-info span, .out-tem-wrap .single-team-member:hover .member-info h4, .out-tem-wrap .single-team-member:hover .member-info span {
@@ -3816,7 +3783,10 @@ form .f3 {
   margin-top: 40px;
   -webkit-transition: .5s;
   -o-transition: .5s;
-  transition: .5s; }
+  transition: .5s; 
+  width: 8rem;
+  height: 8rem;
+}
   .single-brand img {
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -3830,10 +3800,14 @@ form .f3 {
       text-align: center; } }
   @media (max-width: 480px) {
     .single-brand {
-      width: 100%;
+      width: 50%;
       float: none;
       text-align: center; } }
 
+
+  .brand-logo-wrap .row {
+    justify-content: center;
+  }
 /* ----------------------------------
 	Footer Section Styles
  ------------------------------------ */
@@ -3929,7 +3903,7 @@ footer {
   transition: .3s;
   margin-top: 5px; }
   .single-footer-wid ul li a:hover {
-    color: #f93748 !important;
+    color: #31b5e6 !important;
     padding-left: 4px; }
 
 .footer-logo p {

@@ -13,34 +13,31 @@ class Client extends Component {
                         <div className="col-12 text-center">
                             <div className="brand-cat-a d-md-flex justify-content-lg-between ">
                                 <div className="single-brand">
-                                    <img src={require ("../assets/img/brand/1.png") } alt="klaud" />
+                                    <img src={require ("../assets/img/brand/partenaire1.png") } alt="" />
                                 </div>
                                 <div className="single-brand">
-                                    <img src={require ("../assets/img/brand/2.png") } alt="klaud" />
+                                    <img src={require ("../assets/img/brand/partenaire2.png") } alt="" />
                                 </div>
                                 <div className="single-brand">
-                                    <img src={require ("../assets/img/brand/3.png") } alt="klaud" />
+                                    <img src={require ("../assets/img/brand/partenaire3.png") } alt="" />
                                 </div>
                                 <div className="single-brand">
-                                    <img src={require ("../assets/img/brand/4.png") } alt="klaud" />
+                                    <img src={require ("../assets/img/brand/partenaire4.png") } alt="" />
                                 </div>
                                 <div className="single-brand">
-                                    <img src={require ("../assets/img/brand/5.png") } alt="klaud" />
+                                    <img src={require ("../assets/img/brand/partenaire5.png") } alt="" />
                                 </div>
                             </div>
                             <div className="brand-cat-b d-md-flex justify-content-lg-around">
                                 <div className="single-brand">
-                                    <img src={require ("../assets/img/brand/6.png") } alt="klaud" />
+                                    <img src={require ("../assets/img/brand/partenaire6.png") } alt="" />
                                 </div>
                                 <div className="single-brand">
-                                    <img src={require ("../assets/img/brand/7.png") } alt="klaud" />
+                                    <img src={require ("../assets/img/brand/partenaire7.png") } alt="" />
                                 </div>
                                 <div className="single-brand">
-                                    <img src={require ("../assets/img/brand/8.png") } alt="klaud" />
-                                </div>
-                                <div className="single-brand">
-                                    <img src={require ("../assets/img/brand/9.png") } alt="klaud" />
-                                </div>
+                                    <img src={require ("../assets/img/brand/partenaire8.png") } alt="" />
+                                </div> 
                             </div>
                         </div>
                     </div>

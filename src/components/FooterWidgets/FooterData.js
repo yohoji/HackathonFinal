@@ -176,7 +176,7 @@ const FooterData = {
         }
     ],
 
-    copyright: "Copyright © 2020. All Rights Reserved To Klaud Ltd.",
+    copyright: "Copyright © 2020. All Rights Reserved.",
 
 }
 

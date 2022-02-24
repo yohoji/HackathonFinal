@@ -19,7 +19,7 @@ class FaqOne extends Component {
                             <div className="col-lg-6 col-12" key={item.id}>
                                 <div className="single-faq-box" data-aos="fade-up" data-aos-duration={800}>
                                     <div className="faq-icon">
-                                    <img src={require (`../../assets/img/services/${item.iconUrl}`) } alt="klaud" />
+                                    <img src={require (`../../assets/img/services/${item.iconUrl}`) } alt="" />
                                     </div>
                                     <div className="faq-text">
                                         <h4>{item.title}</h4>
