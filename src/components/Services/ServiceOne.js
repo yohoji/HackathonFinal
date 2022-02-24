@@ -11,7 +11,7 @@ class ServiceOne extends Component {
             <section className="services-wrap section-padding" id="service">
                 <div className="container">
                     
-                <SectionTitle Title="The Latest Hosting Server Technology"  Titlep="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since" />  
+                <SectionTitle Title="Maîtrise Des Moyens Techniques"  Titlep="Agréés par les plus grands constructeurs réseaux et éditeurs de logiciels, nous garantissons la mise en œuvre des solutions que nous préconisons pour votre entreprise." />  
 
                     <div className="row">
 
