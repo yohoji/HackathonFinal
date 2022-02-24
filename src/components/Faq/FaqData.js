@@ -9,19 +9,19 @@ const FaqData = {
         {
             id:2,
             title:"Why Choose Khost hosting?",
-            ans:"Klaud hosting is a hosting service for WordPress sites, which comes with an easy 1-click installation of Demo.",
+            ans:"IDEAL CONNECT fournit de nombreuses solutions informatiques complètes et innovantes.",
             iconUrl:"wp.png"
         },
         {
             id:3,
             title:"Is This an Affiliate Program?",
-            ans:"Klaud hosting is a hosting service for WordPress sites, which comes with an easy 1-click installation of Demo.",
+            ans:"IDEAL CONNECT fournit de nombreuses solutions informatiques complètes et innovantes.",
             iconUrl:"idea.png"
         },
         {
             id:4,
             title:"What if I've problems with hosting?",
-            ans:"Klaud hosting is a hosting service for WordPress sites, which comes with an easy 1-click installation of Demo.",
+            ans:"IDEAL CONNECT fournit de nombreuses solutions informatiques complètes et innovantes.",
             iconUrl:"support.png"
         },
     ],
